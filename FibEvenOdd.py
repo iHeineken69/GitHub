@@ -1,3 +1,4 @@
+# Fibonacci numbers from the users input number
 def fib(n):
     results = []
     a, b = 0, 1
@@ -6,6 +7,7 @@ def fib(n):
         a, b = b, a+b          
     return results
 
+# Prints all the even numbers from the users input number
 def even_number(n):
     results = []
     a = 0
@@ -14,6 +16,7 @@ def even_number(n):
         a = a + 2
     return results
 
+# Prints all the odd numbers from the users input number
 def odd_number(n):
     results = []
     a = 1
